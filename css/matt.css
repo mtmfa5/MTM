@@ -119,7 +119,7 @@ li {
 }
 
 a{
-	color: #ECF7E8;
+	color: #E4E3AF;
 	text-decoration: none; 
 
 }
@@ -160,7 +160,8 @@ footer {
 	float: left;
 	width: 500px;
 	padding: 5px;
-	margin-left: 5px;
+	margin-left: 66px;
+	margin-top: 220px;
 }
 
 .sidebar {

@@ -73,13 +73,14 @@ header{
 	height: 110px;
 	position: relative;
 	margin: 0 auto;
-	background: #070304; 
+	background: linear-gradient(to bottom , #D7ECC6, #F7FCFA);
+	/*background: url(http://www.neptunesociety.com/images/locations/chicago-palantine-header.jpg) no-repeat; */
 }
 
 
 
 h1 {
-	color: #CAE0A3;
+	color: #130A06;
 	padding: 50px;
 	display: block;
 	/*text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.2);*/
@@ -87,8 +88,11 @@ h1 {
 }
 
 h2{
+
 	color: #CAE0A3;
-	padding: 30px;
+
+	color: #130A06;
+	padding: 5px;
 	display: block;
 	/*text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.2);*/
 	text-decoration: none;
@@ -96,7 +100,7 @@ h2{
 }
 
 h3{
-	color: #CAE0A3;
+	color: #130A06;
 	padding: 5px;
 	display: block;
 	/*text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.2);*/
@@ -119,9 +123,10 @@ li {
 }
 
 a{
-	color: #E4E3AF;
-	text-decoration: none; 
 
+	color: #FAF6F0;
+	color: #393413;
+	text-decoration: none; 
 }
 
 a:hover {
@@ -137,7 +142,12 @@ footer {
 	margin-top: 350px;
 	text-align: center;
 	clear: black;
+
 	background: #070304;
+
+	background: linear-gradient(to top , #D7ECC6, #F7FCFA);
+	/*background: white;*/
+
 	
 }
 
@@ -146,7 +156,8 @@ footer {
 	float: right;
 	width: 390px;
 	height: 350px;
-	background: #070304;
+	background: linear-gradient(to bottom right , #D7ECC6, #F7FCFA);
+	/*background: white;*/
 	/*padding: 20px;*/
 	/*margin-top: 20px;*/	
 	color: black;
@@ -175,11 +186,17 @@ footer {
 }
 
 p {
-	color: #E4E3AF;
+	color: #393413;
 	font-size: 18px;
-	/*margin: 10px;*/
-	text-align: center;
+	margin: 0 0 10px;
+	text-align: left;
+	text-indent: 2em;
 }
+
+h3 + p {
+text-indent: 0em;
+}
+
 
 .middle{
 	float: right;
@@ -227,3 +244,27 @@ ul.secondary-nav-list {
   border-color: #d6e9c6;
 }
 
+<<<<<<< HEAD
+a[href^='https:']:after {
+  content: url(http://p.yusukekamiyamane.com/icons/search/fugue/icons/lock.png);
+  padding-left: 4px;
+=======
+a[href^='https://www.chase.com']:after {
+  content: url(http://p.yusukekamiyamane.com/icons/search/fugue/icons/lock.png);
+  padding-left: 4px;
+
+}
+
+  a[target="_blank"]:after{
+  content: url(http://p.yusukekamiyamane.com/icons/search/fugue/icons/ui-tab--arrow.png);
+  padding-left: 10px; }
+
+
+  ul.third-nav-list {
+	border-bottom: solid;
+	border-top: solid;
+	font-size: 20px;
+	width: 150px;
+	margin: 0 auto;
+}
+>>>>>>> changed color and experiments
